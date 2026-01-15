@@ -1,0 +1,28 @@
+Q1.
+https://school.programmers.co.kr/learn/courses/30/lessons/59037
+(Q1문제는 프로그래머스 링크로 첨부)
+
+Q2.
+(집계) "효자 상품 카테고리 찾기"
+목표: 돈을 제일 많이 번 카테고리 3개 찾기.
+테이블: order_items (주문 상세)
+조건: order_status = 'completed' (결제 완료된 것만)
+계산: quantity * unit_price (수량 × 단가 = 매출액)의 합계(SUM).
+결과: 카테고리별 매출액을 구해 상위 3개만 보여주세요.
+
+Q3.
+(JOIN) "인기 폭발 강의 찾기"
+목표: 수강생이 가장 많은 강의 순위 매기기.
+테이블: courses (강의 정보) + enrollments (수강 신청 내역)
+조건: 두 테이블을 INNER JOIN 하세요.
+결과: 강의 이름(course_name)별로 **수강 신청 수(COUNT)**를 세서, 1등부터 순서대로 보여주세요.
+
+Q4.
+(CASE) "유저 등급 매기기"
+목표: 레벨에 따라 텍스트로 등급 표시하기.
+테이블: users (유저 정보)
+조건: CASE WHEN을 써서 레벨(level)별로 등급을 매겨주세요.
+1~10: '새싹'
+11~50: '일반'
+51 이상: '고인물'
+출력: user_id, level, user_grade(새로 만든 별명)
