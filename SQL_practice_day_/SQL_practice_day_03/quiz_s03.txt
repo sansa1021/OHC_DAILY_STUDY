@@ -1,0 +1,12 @@
+Q1.
+https://school.programmers.co.kr/learn/courses/30/lessons/59047
+(Q1문제는 프로그래머스 링크로 첨부)
+
+환경: DBeaver (MySQL) 데이터: courses (교육), game_logs (게임)
+Q2.
+교육 DB(courses 테이블)에서 카테고리(category)가 'sql' 인 강의들의 
+**강의명(course_name)과 수강료(list_price)**를 조회하는 쿼리를 작성하세요.
+
+Q3.
+게임 DB(game_logs 테이블)에서 캐릭터 레벨(level)이 20 이상(>=) 인 로그만 뽑아서, 
+최근 로그가 먼저 나오도록(log_date 내림차순) 정렬하여 모든 컬럼(*)을 조회하세요
