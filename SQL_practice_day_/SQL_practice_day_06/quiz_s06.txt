@@ -1,0 +1,14 @@
+Q1.
+customers 테이블(id, name)과 orders 테이블(order_id, customer_id, amount, order_date)이 있다고 가정합니다. 
+**주문을 한 번이라도 한 고객의 이름과 그 고객이 주문한 총 주문 금액(amount)**을 조회하는 쿼리를 작성해주세요. 
+(INNER JOIN과 GROUP BY를 사용하세요.)
+
+Q2.
+employees 테이블(id, name, department, salary)에서 부서(department)별 평균 연봉이 5,000 이상인 부서의 이름과 
+해당 부서의 평균 연봉을 조회하세요. 
+(이때, 평균 연봉은 소수점 첫째 자리에서 반올림해주세요.)
+
+Q3.
+access_logs 테이블(log_id, user_id, access_time)이 있습니다. access_time은 DATETIME 형식을 따릅니다. 
+2025년에 접속한 기록 중, 월(Month)별 접속 횟수를 구하여 '월' 오름차순으로 정렬하는 쿼리를 작성해주세요. 
+(MySQL의 MONTH() 함수 등을 활용해보세요.)
