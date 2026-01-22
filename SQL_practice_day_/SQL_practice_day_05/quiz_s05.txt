@@ -1,1 +1,14 @@
 Q1.
+1. (쇼핑몰 - order_items) 우리 쇼핑몰에서 어떤 카테고리(product_category) 상품이 가장 많이 팔렸는지(수량 기준) 알고 싶습니다. 
+order_items 테이블을 사용하여, 카테고리별 **총 판매 수량(sum of quantity)**을 구하고, 판매량이 많은 순서대로 정렬하는 쿼리를 작성해주세요.
+필요한 컬럼: product_category, quantity
+
+Q2.
+(교육 - students) 학생들이 어느 지역에 많이 사는지 궁금합니다. 
+students 테이블에서 지역(region)별 학생 수를 구하는 쿼리를 작성해주세요. (단, 지역 이름 가나다순(오름차순)으로 정렬해주세요.)
+필요한 컬럼: region, student_id (또는 *)
+
+Q3.
+(교육 - courses) 현재 운영 중인 강의들의 가격대를 파악해봅시다. 
+courses 테이블에서 운영 중인 강의(is_active = 1)만 골라낸 뒤, **강의 카테고리(category)별 평균 정가(list_price)**를 구하는 쿼리를 작성해주세요.
+필요한 컬럼: category, list_price, is_active
